@@ -1,0 +1,12 @@
+# Ignore artifacts:
+build
+coverage
+tailwind.config.js
+package-lock.json
+node_modules
+package.json
+tsconfig.json
+tsconfig.node.json
+tsconfig.app.json
+vite.config.ts
+postcss.config.js
