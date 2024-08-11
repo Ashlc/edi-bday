@@ -3,19 +3,9 @@ import { messages } from "./messages";
 
 export const friends: IFriend[] = [
   {
-    name: "Nathinha",
-    message: messages.nathinha,
-    image: "@assets/images/nathinha.jpeg",
-    song: {
-      title: "Habits",
-      artist: "Tove Lo",
-      link: "https://deezer.page.link/5WS4LXXme22s8NaJ7",
-    },
-  },
-  {
-    name: "Bob",
-    message: messages.placeholder,
-    image: "https://randomuser.me/api/portraits/men/2.jpg",
+    name: "Milena",
+    message: messages.milena,
+    image: "/images/milena.jpeg",
     song: {
       title: "Good Vibrations",
       artist: "The Beach",
@@ -23,13 +13,13 @@ export const friends: IFriend[] = [
     },
   },
   {
-    name: "Charlie",
-    message: messages.placeholder,
-    image: "https://randomuser.me/api/portraits/men/2.jpg",
+    name: "Nathinha",
+    message: messages.nathinha,
+    image: "/images/nathinha.jpeg",
     song: {
-      title: "Happy",
-      artist: "Pharrell Williams",
-      link: "https://www.youtube.com/watch?v=ZbZSe6N_BXs",
+      title: "Habits",
+      artist: "Tove Lo",
+      link: "https://deezer.page.link/5WS4LXXme22s8NaJ7",
     },
   },
 ];
