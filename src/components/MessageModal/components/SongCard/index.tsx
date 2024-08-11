@@ -1,4 +1,4 @@
-import SongIcon from "../../../../assets/music_note.svg";
+import SongIcon from "../../../../assets/icons/music_note.svg";
 import { ISong } from "../../../../interfaces/ISong";
 
 type Props = {
@@ -10,6 +10,7 @@ const Index = ({ song }: Props) => {
     <a
       href={song?.link}
       target="_blank"
+      tabIndex={1000}
       className="bg-secondary-300 text-white h-20 flex flex-row items-center rounded-md hover:bg-secondary-200"
     >
       <img src={SongIcon} alt="" className="p-4 mx-2" />

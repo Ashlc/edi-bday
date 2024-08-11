@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {
+      width: {
+        base: '256px'
+      },
       backgroundImage: {
         'pattern': "url('./src/assets/pattern.svg')",
       },

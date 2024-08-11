@@ -1,19 +1,20 @@
 import { IFriend } from "../interfaces/IFriend";
+import { messages } from "./messages";
 
 export const friends: IFriend[] = [
   {
-    name: "Alice",
-    message: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    image: "https://randomuser.me/api/portraits/women/1.jpg",
+    name: "Nathinha",
+    message: messages.nathinha,
+    image: "src/assets/images/nathinha.jpeg",
     song: {
-      title: "Hello",
-      artist: "Adele",
-      link: "https://www.youtube.com/watch?v=YQHsXMglC9A",
+      title: "Habits",
+      artist: "Tove Lo",
+      link: "https://deezer.page.link/5WS4LXXme22s8NaJ7",
     },
   },
   {
     name: "Bob",
-    message: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    message: messages.placeholder,
     image: "https://randomuser.me/api/portraits/men/1.jpg",
     song: {
       title: "Good Vibrations",
@@ -23,7 +24,7 @@ export const friends: IFriend[] = [
   },
   {
     name: "Charlie",
-    message: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    message: messages.placeholder,
     image: "https://randomuser.me/api/portraits/men/2.jpg",
     song: {
       title: "Happy",
