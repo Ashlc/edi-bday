@@ -1,1 +1,1 @@
-export const messageClasses = "indent-5 text-justify";
+export const messageClasses = "indente-10 text-justify";

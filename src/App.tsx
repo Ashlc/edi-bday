@@ -32,7 +32,7 @@ function App() {
           </div>
         </div>
         <div className="text-justify text-white p-6 bg-secondary-300 bg-opacity-60 backdrop-blur-xs rounded-lg">
-          <p className="indent-5">
+          <p className="indente-10">
             Edi, além do esquema de pirâmide, queríamos deixar mensagens para
             que você saiba por quê seu dia é especial para todos nós.
           </p>

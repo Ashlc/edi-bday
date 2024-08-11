@@ -5,7 +5,7 @@ export const friends: IFriend[] = [
   {
     name: "Nathinha",
     message: messages.nathinha,
-    image: "src/assets/images/nathinha.jpeg",
+    image: "@assets/images/nathinha.jpeg",
     song: {
       title: "Habits",
       artist: "Tove Lo",
@@ -15,7 +15,7 @@ export const friends: IFriend[] = [
   {
     name: "Bob",
     message: messages.placeholder,
-    image: "https://randomuser.me/api/portraits/men/1.jpg",
+    image: "https://randomuser.me/api/portraits/men/2.jpg",
     song: {
       title: "Good Vibrations",
       artist: "The Beach",
