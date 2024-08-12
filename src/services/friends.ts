@@ -7,9 +7,9 @@ export const friends: IFriend[] = [
     message: messages.milena,
     image: "/images/milena.jpeg",
     song: {
-      title: "Good Vibrations",
-      artist: "The Beach",
-      link: "https://www.youtube.com/watch?v=8bHJ7zr9EoA",
+      title: "Idiota",
+      artist: "Jão",
+      link: "https://open.spotify.com/track/6EDj1nbl9wo6ivGI1t59G4?si=JdcxCdPDTgauq_jhO-zEEw&context=spotify%3Asearch%3Aidiot",
     },
   },
   {
@@ -19,7 +19,7 @@ export const friends: IFriend[] = [
     song: {
       title: "Habits",
       artist: "Tove Lo",
-      link: "https://deezer.page.link/5WS4LXXme22s8NaJ7",
+      link: "https://open.spotify.com/track/18AJRdgUoO9EYn11N7xzaT?si=ekmmc0laS9Cu0Ozflm0_4A",
     },
   },
 ];
