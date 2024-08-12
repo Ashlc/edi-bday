@@ -13,7 +13,7 @@ const Index = ({ friend, visible, setVisible }: Props) => {
   };
   return (
     <div
-      className={`${visible ? "flex" : "hidden"} flex-col w-full h-screen py-10 shadow-md custom-scroll overflow-scroll fixed inset-0 z-50`}
+      className={`${visible ? "flex" : "hidden"} flex-col w-full h-screen py-14 shadow-md custom-scroll overflow-scroll fixed inset-0 z-50`}
     >
       <div className="fixed inset-0 bg-secondary-300 bg-opacity-50 backdrop-blur-xs z-40" />
 
