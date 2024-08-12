@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react";
+import Confetti from 'react-confetti';
 import CakeIcon from "./assets/icons/birthday-cake-icon.svg";
+import { colors } from './colors';
 import Card from "./components/Card";
 import MessageModal from "./components/MessageModal";
 import { IFriend } from "./interfaces/IFriend";
@@ -21,6 +23,14 @@ function App() {
 
   return (
     <div className="flex flex-col items-center gap-16 pb-16">
+      <Confetti
+        width={window.innerWidth}
+        initialVelocityY={10}
+        gravity={0.2}
+        height={window.innerHeight}
+        recycle={false}
+        colors={colors}
+      />
       <div className="flex flex-col w-full md:w-1/2 gap-6 text-secondary-300 p-10 bg-white rounded-b-[2rem] shadow-md">
         <div className="text-center flex flex-row items-center gap-6">
           <div>
