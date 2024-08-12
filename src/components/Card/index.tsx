@@ -19,6 +19,8 @@ const Index = ({
     setMessageVisible(true);
   };
 
+  const randomRotation = Math.floor(Math.random() * 3);
+
   return (
     <button
       onClick={handleClick}
@@ -27,7 +29,9 @@ const Index = ({
     >
       <div className="relative">
         <PictureCard image={friend.image} name={friend.name} />
-        <div className="absolute top-4 left-4 -z-10 rounded-lg w-base h-[303px] bg-primary"></div>
+        <div
+          className={`absolute top-4 left-4 -z-10 rounded-lg w-base h-[303px] bg-secondary-100 rotate-${randomRotation}`}
+        ></div>
       </div>
     </button>
   );

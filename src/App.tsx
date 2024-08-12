@@ -20,23 +20,22 @@ function App() {
   }, [messageVisible]);
 
   return (
-    <div className="flex flex-col items-center gap-16 py-16">
-      <div className="flex flex-col items-center w-base gap-8">
-        <div className="flex flex-col items-center gap-4 text-white p-6 bg-secondary-300 bg-opacity-60 backdrop-blur-xs rounded-lg">
-          <img src={CakeIcon} alt="Bolo de aniversário" className="w-12" />
-          <div className="text-center">
-            <p>15/08</p>
-            <p className="text-2xl">
-              Feliz Aniversário, <strong>Edi</strong>!
-            </p>
+    <div className="flex flex-col items-center gap-16 pb-16">
+      <div className="flex flex-col w-full md:w-1/2 gap-6 text-secondary-300 p-10 bg-white rounded-b-[2rem] shadow-md">
+        <div className="text-center flex flex-row items-center gap-6">
+          <div>
+            <img src={CakeIcon} alt="Bolo de aniversário" className="w-12" />
           </div>
-        </div>
-        <div className="text-justify text-white p-6 bg-secondary-300 bg-opacity-60 backdrop-blur-xs rounded-lg">
-          <p className="indente-10">
-            Edi, além do esquema de pirâmide, queríamos deixar mensagens para
-            que você saiba por quê seu dia é especial para todos nós.
+          <p className="text-2xl text-left">
+            Feliz Aniversário, <strong>Edi</strong>!
           </p>
         </div>
+        <div className="h-[1px] w-full bg-primary rounded-sm"></div>
+        <p className="text-justify">
+          Além do esquema de pirâmide, queríamos deixar mensagens para que você
+          saiba por quê seu dia é especial para todos nós.
+        </p>
+        <p className="text-primary italic">Clique em uma polaroid!</p>
       </div>
       <div className="flex flex-col gap-16">
         {friends.map((friend, index) => (
@@ -54,9 +53,6 @@ function App() {
         setVisible={setMessageVisible}
         friend={selectedFriend}
       />
-      <div className="flex flex-col w-base items-center gap-4 text-white p-6 bg-secondary-300 bg-opacity-60 backdrop-blur-xs rounded-lg">
-        <p>Playlist</p>
-      </div>
     </div>
   );
 }

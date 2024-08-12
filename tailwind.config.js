@@ -9,24 +9,13 @@ export default {
       width: {
         base: '256px'
       },
-      backgroundImage: {
-        'pattern': "url('./src/assets/pattern.svg')",
-      },
       colors: {
-        "primary": "#FFD6E8",
+        "primary": "#FC9FBC",
         "secondary": {
-          100: "#C69274",
-          200: "#946756",
-          300: "#352626"
-        }
-      },
-      textColor: {
-        "primary": "#FFD6E8",
-        "secondary": {
-          100: "#C69274",
-          200: "#946756",
-          300: "#352626"
-        }
+          100: "#FEDCD3",
+          200: "#FAB2B5",
+          300: "#560B22"
+        },
       },
       backdropBlur: {
         xs: '2px',
