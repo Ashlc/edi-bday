@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import Confetti from 'react-confetti';
-import CakeIcon from "./assets/icons/birthday-cake-icon.svg";
+import JustAGirl from "./assets/justagirl.png";
 import { colors } from './colors';
 import Card from "./components/Card";
 import MessageModal from "./components/MessageModal";
@@ -31,21 +31,17 @@ function App() {
         recycle={false}
         colors={colors}
       />
-      <div className="flex flex-col w-full md:w-1/2 gap-6 text-secondary-300 p-10 bg-white rounded-b-[2rem] shadow-md">
-        <div className="text-center flex flex-row items-center gap-6">
-          <div>
-            <img src={CakeIcon} alt="Bolo de aniversário" className="w-12" />
-          </div>
-          <p className="text-2xl text-left">
+      <div className="relative flex flex-col w-full md:w-1/2 gap-6 text-secondary-300 p-10 bg-white rounded-b-[2rem] shadow-md">
+        <img src={JustAGirl} alt="Just a girl" className="absolute w-20 -bottom-6 right-6" />
+          <p className="text-2xl text-center">
             Feliz Aniversário, <strong>Edi</strong>!
           </p>
-        </div>
         <div className="h-[1px] w-full bg-primary rounded-sm"></div>
         <p className="text-justify">
-          Além do esquema de pirâmide, queríamos deixar mensagens para que você
+          Além do esquema de pirâmide, deixamos essas mensagens para que você
           saiba por quê seu dia é especial para todos nós.
         </p>
-        <p className="text-primary italic">Clique em uma polaroid!</p>
+        <p className="text-primary text-center italic">Clique em uma polaroid!</p>
       </div>
       <div className="flex flex-col gap-16">
         {friends.map((friend, index) => (
