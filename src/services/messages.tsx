@@ -49,4 +49,20 @@ export const messages = {
       ainda vai conquistar nessa vida. Conte comigo, bebe!
     </Paragraph>
   ),
+  murilo: (
+    <>
+      <Paragraph>Edonha, </Paragraph>
+      <Paragraph>
+        Quero te desejar as melhores coisas do mundo hoje e sempre, até porque a
+        vida já te maltratou o suficiente e sabemos disso! Não ironicamente,
+        você é uma das melhores amigas que tenho, pois somente você é capaz de
+        gerar tanto entretenimento se lascando nessa bela vida. Sinceramente,
+        sou muito grato por tudo. Apesar de toda judiação, você insiste em ser
+        minha amiga e, nesses 8 anos de amizade, você nunca deixou de se fazer
+        presente e ser parceira como poucas pessoas nessa vida são. Por tudo
+        isso, você merece todas as melhores coisas que eu consigo desejar e que,
+        hoje e sempre, você se realize nesse mundo!❤️
+      </Paragraph>
+    </>
+  ),
 };

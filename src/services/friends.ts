@@ -22,4 +22,14 @@ export const friends: IFriend[] = [
       link: "https://open.spotify.com/track/18AJRdgUoO9EYn11N7xzaT?si=ekmmc0laS9Cu0Ozflm0_4A",
     },
   },
+  {
+    name: "Murilo",
+    message: messages.murilo,
+    image: "/images/murilo.jpeg",
+    song: {
+      title: "Dentro da Hilux",
+      artist: "Luan Pereira",
+      link: "https://open.spotify.com/track/3XIXklO3e0uWUAUkOR7NLI?autoplay=true",
+    },
+  },
 ];
