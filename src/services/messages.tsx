@@ -65,4 +65,23 @@ export const messages = {
       </Paragraph>
     </>
   ),
+  isadora: (
+    <>
+      <Paragraph>
+        Oi, vida! Optei por não me estender tanto aqui porque tudo que eu
+        escrevi na última (e recente) carta ainda vale.
+      </Paragraph>
+      <Paragraph>
+        Eu só consigo sentir gratidão em ter você na minha vida. Eu amo nossa
+        comunicação, amo nosso relacionamento, eu amo você. Eu quero passar
+        muitos aniversários do seu lado, e quero que você viva muito. Quero que
+        você viva muito porque eu não vejo mais sentido em descobrir a vida
+        sozinha agora que eu sei a beleza de compartilhar isso com alguém.
+      </Paragraph>
+      <Paragraph>
+        Feliz aniversário, meu amor. Eu espero que possamos ver dias melhores o
+        quanto antes. Eu te amo.
+      </Paragraph>
+    </>
+  ),
 };
