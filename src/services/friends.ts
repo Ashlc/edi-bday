@@ -14,13 +14,18 @@ export const friends: IFriend[] = [
   },
   {
     name: "Iza (com Z)",
-    message: messages.placeholder,
+    message: messages.iza,
     image: "/images/iza.jpeg",
   },
   {
     name: "Leca",
     message: messages.leticia,
     image: "/images/leticia.jpeg",
+    song: {
+      title: "Amigos Pela Fé",
+      artist: "Luan Santana",
+      link: "https://open.spotify.com/track/1FCuCCzkcMFXqlDGVwgCHl",
+    },
   },
   {
     name: "Milena",
@@ -29,7 +34,7 @@ export const friends: IFriend[] = [
     song: {
       title: "Idiota",
       artist: "Jão",
-      link: "https://open.spotify.com/track/6EDj1nbl9wo6ivGI1t59G4?si=JdcxCdPDTgauq_jhO-zEEw&context=spotify%3Asearch%3Aidiot",
+      link: "https://open.spotify.com/track/6EDj1nbl9wo6ivGI1t59G4",
     },
   },
   {
@@ -51,6 +56,11 @@ export const friends: IFriend[] = [
       artist: "Tove Lo",
       link: "https://open.spotify.com/track/18AJRdgUoO9EYn11N7xzaT",
     },
+  },
+  {
+    name: "Soul",
+    message: messages.placeholder,
+    image: "/images/soul.jpeg",
   },
   {
     name: "Yuri",
