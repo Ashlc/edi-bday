@@ -84,6 +84,18 @@ export const messages = {
       </Paragraph>
     </>
   ),
+  iza: (
+    <Paragraph>
+      Ediii, parabéns pelo seu dia!! Sou muito grata pelo fato de que faz 7 anos
+      da imersão, mas nós nunca perdemos o contato. Apesar de não nos falarmos
+      muito, quando conseguimos nos ver é como se nada mudasse, e eu sei que as
+      boas amizades são assim mesmo 🫶🏻 muito lindo ver a gente e as outras
+      meninas crescendo e virando mulheres, te desejo tudo de melhor nessa fase
+      da vida, mesmo a vida adulta sugando nossa alma (💀), que não nos falte
+      oportunidade de nos vermos pessoalmente e rirmos muito juntas! Feliz
+      aniversário, aproveita muito aí 🥳🥳🩷🩷
+    </Paragraph>
+  ),
   yuri: (
     <Paragraph>
       Feliz dia, Edi. Desejo a você as melhores coisas do universo. Que seu dia
