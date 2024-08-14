@@ -5,5 +5,5 @@ export interface IFriend {
   name: string;
   message: ReactNode;
   image: string;
-  song: ISong;
+  song?: ISong;
 }

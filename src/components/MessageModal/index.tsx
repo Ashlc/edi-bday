@@ -36,14 +36,17 @@ const Index = ({ friend, visible, setVisible }: Props) => {
       });
     }
   }, [visible]);
-  
+
   return (
     <div
       className={`${visible ? "flex" : "hidden"} flex-col w-full h-screen py-14 shadow-md custom-scroll overflow-scroll fixed inset-0 z-50`}
     >
-        <div className="fixed -inset-0 bg-secondary-300 backdrop-blur-xs bg-opacity-50 z-40" />
+      <div className="fixed -inset-0 bg-secondary-300 backdrop-blur-xs bg-opacity-50 z-40" />
 
-      <div ref={scope} className="bg-white z-50 p-6 lg:p-8 rounded-lg w-11/12 lg:w-1/2 text-secondary-300 flex flex-col gap-6 m-auto">
+      <div
+        ref={scope}
+        className="bg-white z-50 p-6 lg:p-8 rounded-lg w-11/12 lg:w-1/2 text-secondary-300 flex flex-col gap-6 m-auto"
+      >
         <div className="flex flex-row w-full justify-between">
           <h1 className="font-bold text-xl">{friend?.name}</h1>
           <button
@@ -55,8 +58,13 @@ const Index = ({ friend, visible, setVisible }: Props) => {
           </button>
         </div>
         {friend?.message}
-        <div className="h-[1px] w-full bg-secondary-100"></div>
-        <SongCard song={friend?.song || null} />
+
+        {friend?.song && (
+          <>
+            <div className="h-[1px] w-full bg-secondary-100"></div>
+            <SongCard song={friend.song} />
+          </>
+        )}
       </div>
     </div>
   );

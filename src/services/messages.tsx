@@ -84,4 +84,34 @@ export const messages = {
       </Paragraph>
     </>
   ),
+  yuri: (
+    <Paragraph>
+      Feliz dia, Edi. Desejo a você as melhores coisas do universo. Que seu dia
+      seja repleto de alegria e carinho dos seus familiares e amigos. Foi um
+      prazer me tornar seu amigo e poder compartilhar algumas datas com vc. Das
+      festas universitárias às datas comemorativas, vc sempre fez questão de me
+      incluir, e eu fiquei tão grato por cada gesto seu, que o meu respeito e
+      carinho por vc só aumentava. Obrigado por tudo, feliz dia e uma grande
+      abraço do seu amigo, Yuri!!!
+    </Paragraph>
+  ),
+  leticia: (
+    <Paragraph>
+      Edi,
+      <br />
+      vou ser sincera com você, não me lembro como foi que viramos amigas. Pra
+      mim foi algo tão natural que quando dei por mim você já tava na minha
+      lista de prioridade, de carinho e de quem eu precisava defender de todo o
+      mal (rs). Do nada me vi ansiosa pra te contar minhas aventuras e ouvir
+      seus conselhos (ou então suas risadas, que eu adoro também!!). E me vi
+      grata por poder ter uma amiga tão atenciosa e talentosa e engraçada. E
+      bonita e dançarina e tiktoker. E alguém que eu poderia chorar junto e me
+      divertir em uma festa de baixa qualidade. E apesar de não lembrar o dia
+      exato em que você ocupou um espaço no meu coração, ele continua aqui e é
+      só seu. Espero que nossa amizade possa continuar cada vez mais sólida e
+      que você saiba que pode contar comigo pra tudo nessa vida. Te desejo um
+      ótimo aniversário e tô ansiosa pra comemorar cada uma de suas conquistas.
+      Você merece as melhores coisas do mundo. Obrigada por tudo. Te amo muito!!
+    </Paragraph>
+  ),
 };

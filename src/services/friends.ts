@@ -16,11 +16,11 @@ export const friends: IFriend[] = [
     name: "Iza (com Z)",
     message: messages.placeholder,
     image: "/images/iza.jpeg",
-    song: {
-      title: "Música",
-      artist: "Artista",
-      link: ".",
-    },
+  },
+  {
+    name: "Leca",
+    message: messages.leticia,
+    image: "/images/leticia.jpeg",
   },
   {
     name: "Milena",
@@ -51,5 +51,10 @@ export const friends: IFriend[] = [
       artist: "Tove Lo",
       link: "https://open.spotify.com/track/18AJRdgUoO9EYn11N7xzaT",
     },
+  },
+  {
+    name: "Yuri",
+    message: messages.yuri,
+    image: "/images/yuri.jpeg",
   },
 ];
