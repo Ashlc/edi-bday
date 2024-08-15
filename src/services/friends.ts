@@ -4,7 +4,7 @@ import { messages } from "./messages";
 export const friends: IFriend[] = [
   {
     name: "Gabi",
-    message: messages.placeholder,
+    message: messages.gabi,
     image: "/images/gabi.jpeg",
   },
   {
@@ -69,7 +69,7 @@ export const friends: IFriend[] = [
   },
   {
     name: "Soul",
-    message: messages.placeholder,
+    message: messages.soul,
     image: "/images/soul.jpeg",
   },
   {
