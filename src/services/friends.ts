@@ -77,4 +77,9 @@ export const friends: IFriend[] = [
     message: messages.yuri,
     image: "/images/yuri.jpeg",
   },
+  {
+    name: "Joka",
+    message: messages.joka,
+    image: "https://drive.google.com/file/d/1-7yzBWrh3TDuXnjPaPf5pbbvMbFm6KNb/view?usp=drivesdk",
+   },
 ];
