@@ -126,4 +126,19 @@ export const messages = {
       Você merece as melhores coisas do mundo. Obrigada por tudo. Te amo muito!!
     </Paragraph>
   ),
+  gabi: (
+    <Paragraph>
+     Mensagem
+    </Paragraph>
+  ),
+  soul: (
+    <>
+    <Paragraph>
+      Feliz aniversário, minha amiga Edi!
+    </Paragraph>
+    <Paragraph>
+Não faz tanto tempo que nos conhecemos, mas quero deixar bem claro (de novo) o quanto sou grato pela sua presença. Tem sido uma experiência incrível te conhecer sempre um pouco mais, e apesar de tão pouco tempo, poder contar com você para tanta coisa. Você é uma pessoa maravilhosa e definitivamente alguém que me inspira sempre que conversamos, independente do assunto da vez. Espero que você possa aproveitar esse dia do jeito que você merece, da melhor forma possível. Que seja mais um ano de alegria e muito sucesso para você!
+    </Paragraph>
+    </>
+  )
 };
