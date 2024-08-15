@@ -64,7 +64,7 @@ export const friends: IFriend[] = [
   },
   {
     name: "Pedro",
-    message: messages.placeholder,
+    message: messages.pedro,
     image: "/images/pedro.jpeg",
   },
   {

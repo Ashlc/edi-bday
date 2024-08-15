@@ -127,9 +127,18 @@ export const messages = {
     </Paragraph>
   ),
   gabi: (
-    <Paragraph>
-     Mensagem
-    </Paragraph>
+    <p>
+     Você é o TD do meu AH<br/>
+     A ansi da minha edade<br/> 
+     A depre da minha são <br/>
+     A via da minha dagem<br/>
+     A ale da gria<br/>
+     A fo da minha me <br/>
+     A bi da minha cha <br/>
+     <br/>
+     Enfim...<br/>
+     Vc faz parte de tudo, sempre fez ❤️<br/>
+    </p>
   ),
   soul: (
     <>
@@ -137,8 +146,14 @@ export const messages = {
       Feliz aniversário, minha amiga Edi!
     </Paragraph>
     <Paragraph>
-Não faz tanto tempo que nos conhecemos, mas quero deixar bem claro (de novo) o quanto sou grato pela sua presença. Tem sido uma experiência incrível te conhecer sempre um pouco mais, e apesar de tão pouco tempo, poder contar com você para tanta coisa. Você é uma pessoa maravilhosa e definitivamente alguém que me inspira sempre que conversamos, independente do assunto da vez. Espero que você possa aproveitar esse dia do jeito que você merece, da melhor forma possível. Que seja mais um ano de alegria e muito sucesso para você!
+      Não faz tanto tempo que nos conhecemos, mas quero deixar bem claro (de novo) o quanto sou grato pela sua presença. Tem sido uma experiência incrível te conhecer sempre um 
+      pouco mais, e apesar de tão pouco tempo, poder contar com você para tanta coisa. Você é uma pessoa maravilhosa e definitivamente alguém que me inspira sempre que 
+      conversamos, independente do assunto da vez. Espero que você possa aproveitar esse dia do jeito que você merece, da melhor forma possível. Que seja mais um ano de alegria e 
+      muito sucesso para você!
     </Paragraph>
     </>
+  ),
+  pedro: (
+    <p>(perdeu o prazo)</p>
   )
 };
