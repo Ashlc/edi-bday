@@ -23,6 +23,11 @@ export const friends: IFriend[] = [
     image: "/images/iza.jpeg",
   },
   {
+    name: "Joka",
+    message: messages.joka,
+    image: "/images/joke.jpeg",
+  },
+  {
     name: "Leca",
     message: messages.leticia,
     image: "/images/leticia.jpeg",
@@ -77,9 +82,4 @@ export const friends: IFriend[] = [
     message: messages.yuri,
     image: "/images/yuri.jpeg",
   },
-  {
-    name: "Joka",
-    message: messages.joka,
-    image: "https://drive.google.com/file/d/1-7yzBWrh3TDuXnjPaPf5pbbvMbFm6KNb/view?usp=drivesdk",
-   },
 ];
