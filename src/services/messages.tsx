@@ -128,77 +128,74 @@ export const messages = {
   ),
   gabi: (
     <p>
-     Você é o TD do meu AH<br/>
-     A ansi da minha edade<br/> 
-     A depre da minha são <br/>
-     A via da minha dagem<br/>
-     A ale da gria<br/>
-     A fo da minha me <br/>
-     A bi da minha cha <br/>
-     <br/>
-     Enfim...<br/>
-     Vc faz parte de tudo, sempre fez ❤️<br/>
+      Você é o TD do meu AH<br />
+      A ansi da minha edade<br />
+      A depre da minha são <br />
+      A via da minha dagem<br />
+      A ale da gria<br />
+      A fo da minha me <br />
+      A bi da minha cha <br />
+      <br />
+      Enfim...<br />
+      Vc faz parte de tudo, sempre fez ❤️<br />
     </p>
   ),
   soul: (
     <>
-    <Paragraph>
-      Feliz aniversário, minha amiga Edi!
-    </Paragraph>
-    <Paragraph>
-      Não faz tanto tempo que nos conhecemos, mas quero deixar bem claro (de novo) o quanto sou grato pela sua presença. Tem sido uma experiência incrível te conhecer sempre um 
-      pouco mais, e apesar de tão pouco tempo, poder contar com você para tanta coisa. Você é uma pessoa maravilhosa e definitivamente alguém que me inspira sempre que 
-      conversamos, independente do assunto da vez. Espero que você possa aproveitar esse dia do jeito que você merece, da melhor forma possível. Que seja mais um ano de alegria e 
-      muito sucesso para você!
-    </Paragraph>
+      <Paragraph>
+        Feliz aniversário, minha amiga Edi!
+      </Paragraph>
+      <Paragraph>
+        Não faz tanto tempo que nos conhecemos, mas quero deixar bem claro (de novo) o quanto sou grato pela sua presença. Tem sido uma experiência incrível te conhecer sempre um
+        pouco mais, e apesar de tão pouco tempo, poder contar com você para tanta coisa. Você é uma pessoa maravilhosa e definitivamente alguém que me inspira sempre que
+        conversamos, independente do assunto da vez. Espero que você possa aproveitar esse dia do jeito que você merece, da melhor forma possível. Que seja mais um ano de alegria e
+        muito sucesso para você!
+      </Paragraph>
     </>
   ),
   pedro: (
-
-<p>
-Feliz aniversário
-<br/>
-Alguma coisa está acontecendo,<br/>
-olhei para o céu, cadê as estrelas?<br/>
-O Sol sumiu;<br/>
-a Lua partiu.<br/>
-<br/>
-Sumiram as rosas dos jardins,<br/>
-sumiram os peixinhos do mar,<br/>
-e o vento deve estar soprando em outro lugar.<br/>
-<br/>
-Em busca de ajuda,<br/>
-procurei os anjinhos<br/>
-e nem eles conseguiram encontrar.<br/>
-Quando de repente um deles,<br/>
-eu vi tentando escapar.<br/>
-<br/>
-Não hesitei, e fui logo perguntando:<br/>
-Anjinho, anjinho: - O que está acontecendo?<br/>
-E o anjinho, mesmo que apressado,<br/>
-respondeu ao meu chamado:<br/>
-- Meu rapaz, você não tem do que se preocupar,<br/>
-todos saíram para comemorar,<br/>
-o aniversário da pessoa mais linda deste lugar.
-</p>
+    <p>
+      Feliz aniversário
+      <br />
+      Alguma coisa está acontecendo,<br />
+      olhei para o céu, cadê as estrelas?<br />
+      O Sol sumiu;<br />
+      a Lua partiu.<br />
+      <br />
+      Sumiram as rosas dos jardins,<br />
+      sumiram os peixinhos do mar,<br />
+      e o vento deve estar soprando em outro lugar.<br />
+      <br />
+      Em busca de ajuda,<br />
+      procurei os anjinhos<br />
+      e nem eles conseguiram encontrar.<br />
+      Quando de repente um deles,<br />
+      eu vi tentando escapar.<br />
+      <br />
+      Não hesitei, e fui logo perguntando:<br />
+      Anjinho, anjinho: - O que está acontecendo?<br />
+      E o anjinho, mesmo que apressado,<br />
+      respondeu ao meu chamado:<br />
+      - Meu rapaz, você não tem do que se preocupar,<br />
+      todos saíram para comemorar,<br />
+      o aniversário da pessoa mais linda deste lugar.
+    </p>
   ),
   joka: (
-  <>
-  <Paragraph>
-  Edi,
-  </Paragraph>
-<br/>
-<Paragraph>
-Oi amiga!! Feliz aniversárioo!! Te desejo tudo de melhor sempre! Você é uma pessoa que sempre foi muito especial pra mim e com quem sinto que posso falar, mesmo que a gente se veja pouco e por isso aconteça raramente kkkkkkk
-<Paragraph/>
-<Paragraph>
-Você merece ter uma vida linda e plenamente feliz, é o que eu espero! Obrigada por fazer parte de tantas memórias queridas! Aproveite seu diaaa
-<Paragraph />
-<p>Um beijão,<br/>
-Joka
-</p>
-<br/>
-<p>Ps.: eu me ainda me refiro a você como melhor amiga quando conto alguma história pra alguém! Te amo❤<p/>
-</>
+      <>
+        <Paragraph>
+        Edi,
+        </Paragraph>
+        <br />
+        <Paragraph>
+          Oi amiga!! Feliz aniversárioo!! Te desejo tudo de melhor sempre! Você é uma pessoa que sempre foi muito especial pra mim e com quem sinto que posso falar, mesmo que a gente se veja pouco e por isso aconteça raramente kkkkkkk
+        </Paragraph>
+        <Paragraph>
+          Você merece ter uma vida linda e plenamente feliz, é o que eu espero! Obrigada por fazer parte de tantas memórias queridas! Aproveite seu diaaa
+        </Paragraph>
+        <p>Um beijão,</p>
+        <p>Joka</p>
+        <p>Ps.: eu me ainda me refiro a você como melhor amiga quando conto alguma história pra alguém! Te amo❤</p>
+      </>
   )
 };
