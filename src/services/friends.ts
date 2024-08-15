@@ -3,6 +3,11 @@ import { messages } from "./messages";
 
 export const friends: IFriend[] = [
   {
+    name: "Gabi",
+    message: messages.placeholder,
+    image: "/images/gabi.jpeg",
+  },
+  {
     name: "Isa (com S)",
     message: messages.isadora,
     image: "/images/isadora.jpeg",
@@ -58,6 +63,11 @@ export const friends: IFriend[] = [
     },
   },
   {
+    name: "Pedro",
+    message: messages.placeholder,
+    image: "/images/pedro.jpeg",
+  },
+  {
     name: "Soul",
     message: messages.placeholder,
     image: "/images/soul.jpeg",
@@ -66,10 +76,5 @@ export const friends: IFriend[] = [
     name: "Yuri",
     message: messages.yuri,
     image: "/images/yuri.jpeg",
-  },
-  {
-    name: "Gabi",
-    message: messages.placeholder,
-    image: ".",
   },
 ];
