@@ -155,5 +155,22 @@ export const messages = {
   ),
   pedro: (
     <p>(perdeu o prazo)</p>
+  ),
+  joka: (
+  <Paragraph>
+  Edi,
+  </Paragraph>
+<br/>
+<Paragraph>
+Oi amiga!! Feliz aniversárioo!! Te desejo tudo de melhor sempre! Você é uma pessoa que sempre foi muito especial pra mim e com quem sinto que posso falar, mesmo que a gente se veja pouco e por isso aconteça raramente kkkkkkk
+<Paragraph/>
+<Paragraph>
+Você merece ter uma vida linda e plenamente feliz, é o que eu espero! Obrigada por fazer parte de tantas memórias queridas! Aproveite seu diaaa
+<Paragraph />
+<p>Um beijão,<br/>
+Joka
+</p>
+<br/>
+<p>Ps.: eu me ainda me refiro a você como melhor amiga quando conto alguma história pra alguém! Te amo❤<p/>
   )
 };
