@@ -154,9 +154,36 @@ export const messages = {
     </>
   ),
   pedro: (
-    <p>(perdeu o prazo)</p>
+
+<p>
+Feliz aniversário
+<br/>
+Alguma coisa está acontecendo,<br/>
+olhei para o céu, cadê as estrelas?<br/>
+O Sol sumiu;<br/>
+a Lua partiu.<br/>
+<br/>
+Sumiram as rosas dos jardins,<br/>
+sumiram os peixinhos do mar,<br/>
+e o vento deve estar soprando em outro lugar.<br/>
+<br/>
+Em busca de ajuda,<br/>
+procurei os anjinhos<br/>
+e nem eles conseguiram encontrar.<br/>
+Quando de repente um deles,<br/>
+eu vi tentando escapar.<br/>
+<br/>
+Não hesitei, e fui logo perguntando:<br/>
+Anjinho, anjinho: - O que está acontecendo?<br/>
+E o anjinho, mesmo que apressado,<br/>
+respondeu ao meu chamado:<br/>
+- Meu rapaz, você não tem do que se preocupar,<br/>
+todos saíram para comemorar,<br/>
+o aniversário da pessoa mais linda deste lugar.
+</p>
   ),
   joka: (
+  <>
   <Paragraph>
   Edi,
   </Paragraph>
@@ -172,5 +199,6 @@ Joka
 </p>
 <br/>
 <p>Ps.: eu me ainda me refiro a você como melhor amiga quando conto alguma história pra alguém! Te amo❤<p/>
+</>
   )
 };
